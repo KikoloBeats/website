@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: auto;
+}
+/* Header starts here*/
+header{
+    background-color: #000;
+    color: #fff;
+    overflow: auto;
+}
+header a{
+    color:#fff;
+}
+
+
+[data-icon]:before {
+  font-family: icons; /* BYO icon font, mapped smartly */
+  content: attr(data-icon);
+  speak: none; /* Not to be trusted, but hey. */
+}
+
+/* Div Wrapper starts here*/
+#wrapper{
+    width: 940px;
+    overflow: auto;
+}
+section{
+    width: 70%;
+    float: left;
+    overflow: auto;
+    
+}
+aside{
+    width: 30%;
+    float: left;
+    overflow: auto;
+}
+/* footer starts here*/
+footer{
+    background-color: #000;
+    color:#fff;
+    overflow: auto;
+}
